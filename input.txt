@@ -1,0 +1,4 @@
+student|John|Doe|johndoe@email.com|123-456-7890|123 Main St|1990-01-01|12345|Computer Science|2021-09-01|CS101, CS201
+undergrad|Jane|Doe|janedoe@email.com|234-567-8901|456 Elm St|1995-01-01|23456|Biology|2021-09-01|BIO101|2|BIO101,BIO102|20
+graduate|Bob|Smith|bobsmith@email.com|345-678-9012|789 Oak St|1990-01-01|34567|Physics|2021-09-01|PHY101|1|Quantum Mechanics|John
+admin|Alice|Johnson|alicejohnson@email.com|456-789-0123|234 Maple St|1970-01-01|45678|Registrar|Manager|75000|2000
