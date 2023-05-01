@@ -8,3 +8,5 @@ class Admin(Person):
         self.courses_taught = courses_taught
         self.salary = salary
 
+    def __str__(self):
+        return super().__str__() + f", Department: {self.department}, Courses Taught: {', '.join(self.courses_taught)}, Salary: {self.salary}"

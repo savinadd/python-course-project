@@ -1,0 +1,23 @@
+STUDENT|Undergraduate|Savina|Dimitrova|123 Ul Svoboda Bachvarova|123456789|sdd210@aubg.edu|04-04-2003|3.8|Computer Science|05-2025|2|60|INF 1030,ENG 2021,MAT 1003,MAT 1004, COS 2021
+STUDENT|Undergraduate|Emily|Seriruk|1111 North Main Street, New York, USA|18225647169|ess@gmail.com|28-10-02|4.0|Business|05-2025|2|80|MAT 2001,BUS 3030, INF 1030,ENG 2021
+STUDENT|Graduate|Lindsay|Petrova|Ul Ivan Vazov 12, Sofia, Bulgaria|876745277|lpp@gmail.com|12-04-1999|3.0|Business in the Real World|David Gomez
+STUDENT|Undergraduate|Maria|Pakova|Ul Hristo Botev 2, Plovdiv, Bulgaria|8672364526|mpp@gmail.com|24-04-2004|3.9|Information Systems|05-2026|2.3|30|INF 1030,BUS 1001,MAT 1003,INF 2080
+STUDENT|Graduate|Miki|Ignatova|Ul Svoboda Bachvarova 12, Blagoevgrad, Bulgaria|251235745|mii@gmail.com|08-09-1997|2.7|Artificial Intelligence in Cross Language Translations|Dimitar Dimitrov
+STUDENT|Undergraduate|Holly|Garcia|239 C Street, Sofia, 1107|0893235682|HolGar@gmail.com|08-05-2002|3.2|COS|25-06-2024|3|60|COS 1020, COS 2035, INF 2080, INF 3075
+STUDENT|Undergraduate|Brian|Jackson|49 Main Street, Plovdiv, 4016|0899847563|BriJac@gmail.com|12-02-2001|2.9|HTY|15-09-2024|4|89|HTY 1002, HTY 2023, INF 3075, INF 4080
+STUDENT|Undergraduate|Lisa|Lee|61 6th Street, Varna, 9002|0897748392|LeeLisa@gmail.com|29-11-2002|3.8|BUS|23-05-2023|2|28|BUS 2060, INF 2070, INF 3070, INF 4080
+STUDENT|Undergraduate|Robert|Davis|786 2nd Street, Burgas, 8000|0891265837|RobDav@gmail.com|16-09-2003|3.6|ECO|12-06-2024|3|62|ECO 4011, HTY 2012, INF 2080, INF 3035
+STUDENT|Undergraduate|Emily|Brown|73 4th Street, Sofia, 1164|0897754901|EmiBro@gmail.com|22-08-2001|2.7|MAT|03-09-2024|4|94|MAT 1004, MAT 1005, HTY 2021, INF 3035, BUS 1001
+STUDENT|Undergraduate|David|Williams|146 5th Street, Varna, 9010|0896853409|DavWil@gmail.com|30-06-2002|3.1|JMC|02-07-2023|1|12|JMC 1050, JMC 3070, INF 2070, INF 4080
+STUDENT|Undergraduate|Sarah|Garcia|318 Main Street, Sofia, 1125|0899751364|SarGar@gmail.com|07-10-2002|3.9|INF|01-06-2022|1|12|INF 3075, INF 4080, HTY 3010, ECO 1001
+STUDENT|Undergraduate|Karen|Brown|611 3rd Street, Burgas, 8002|0895512750|KarBro@gmail.com|18-12-2001|2.6|MLL|22-06-2024|3|61|MLL 3001, MLL 4003, BUS 3030, BUS 4048
+STUDENT|Undergraduate|Timothy|Lee|916 C Street, Plovdiv, 4000|0894256891|TimLee@gmail.com|13-04-2003|3.3|HTY|03-09-2024|4|95|HTY 2012, HTY 2041, INF 2040, INF 4080, COS 1020
+STUDENT|Graduate|Alexis|Doe|142 Main St Sofia Bulgaria|0901123456|adoe@gmail.com|10-07-1995|3.76|Quantum Computing|Tsvetan Tsvetanov
+STUDENT|Graduate|Oliver|Smith|456 Park Ave Sofia Bulgaria|0888112233|osmith@gmail.com|21-12-1994|3.85|Neuroscience|Dimitar Tuparov
+STUDENT|Graduate|Ava|Williams|789 Lincoln Blvd Sofia Bulgaria|0877223322|awilliams@gmail.com|14-05-1993|3.91|Environmental Science|Ivan Georgiev
+STUDENT|Graduate|Ethan|Brown|33 Elm St Sofia Bulgaria|0899227788|ebrown@gmail.com|03-09-1992|3.56|Computer Vision|Maria Gomez
+STUDENT|Graduate|Emma|Garcia|5th Ave 23 Sofia Bulgaria|0877001122|egarcia@gmail.com|25-02-1991|3.43|Nanotechnology|Dimitar Ivanov
+STUDENT|Graduate|William|Miller|2nd St 14 Sofia Bulgaria|0888112299|wmiller@gmail.com|07-11-1990|3.72|Renewable Energy|Ivan Georgiev
+STUDENT|Graduate|Sophia|Davis|12th Blvd 8 Sofia Bulgaria|0888001199|sdavis@gmail.com|09-03-1989|3.95|Artificial Intelligence|Damyana Ivanov
+STUDENT|Graduate|Jacob|Wilson|14th St 17 Sofia Bulgaria|0888111100|jwilson@gmail.com|16-08-1988|3.68|Cancer Research|Kiril Kirilov
+STUDENT|Graduate|Mia|Moore|Park Ave 35 Sofia Bulgaria|0877991188|mmoore@gmail.com|28-04-1987|3.77|Robotics|Maria Ivanova

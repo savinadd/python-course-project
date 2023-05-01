@@ -1,0 +1,56 @@
+COURSE|C++ Programming|COS 1020|COS|John Smith|09-2023|12-2023|40
+COURSE|Discrete Structures|COS 1050|COS|Dimitar Dimitrov|09-2023|12-2023|35
+COURSE|Fundamental Data Structures|COS 2021|COS|Georgi Georgiev|09-2023|12-2023|35
+COURSE|Basics in Java Programming|COS 2030|COS|Ivan Ivanov|09-2023|12-2023|45
+COURSE|Computer Architecture|COS 2035|COS|Emily Johnson|09-2023|12-2023|35
+COURSE|Software Engineering|COS 3015|COS|Michael Brown|09-2023|12-2023|25
+COURSE|Management in a Global Environment|BUS 1001|BUS|Sarah Davis|09-2023|12-2023|55
+COURSE|Marketing|BUS 2060|BUS|David Gomez|09-2023|12-2023|35
+COURSE|Strategic Management|BUS 4048|BUS|John Johnson|09-2023|12-2023|15
+COURSE|Corporate Finance|BUS 3030|BUS|Eric Appleseed|09-2023|12-2023|40
+COURSE|Financial Accounting|BUS 2020|BUS|Eric McJohnson|09-2023|12-2023|55
+COURSE|Managerial Accounting|BUS 2021|BUS|Nancy Smith|09-2023|12-2023|35
+COURSE|Digital Storytelling|JMC 2020|JMC|Kiril Kirilov|09-2023|12-2023|70
+COURSE|Public Relations Fundamentals|JMC 3070|JMC|Dimitrina Ivanova|09-2023|12-2023|20
+COURSE|Advertising Fundamentals|JMC 3089|JMC|Georgi Ivanov|09-2023|12-2023|35
+COURSE|Policies and Policy Making in the EU|EUR 3003|EUR|Maria Ivanova|09-2023|12-2023|35
+COURSE|Internal Market|EU 3020|EUR|Maria Ivanova|09-2023|12-2023|35
+COURSE|Accounting I|BUS 3020|BUS|Marina Ivanova|09-2023|12-2023|40
+COURSE|Microeconomics|ECO 1001|ECO|Nikoleta Nikolova|09-2023|12-2023|35
+COURSE|Macroeconomics|ECO 1002|ECO|Nikol Dimitrova|09-2023|12-2023|45
+COURSE|Econometric|ECO 3010|ECO|Dimitar Ivanov|09-2023|12-2023|30
+COURSE|Energy Economics|ECO 4011|ECO|Ivan Georgiev|09-2023|12-2023|35
+COURSE|Modern France|MLL 3001|MLL|Veneta Georgieva|09-2023|12-2023|35
+COURSE|Advanced French|MLL 4001|MLL|Veneta Georgieva|09-2023|12-2023|35
+COURSE|Modern Spain|MLL 3003|MLL|Maria Gomez|09-2023|12-2023|35
+COURSE|Advanced Spanish|MLL 4003|MLL|Maria Gomez|09-2023|12-2023|340
+COURSE|Global History to 1500|HTY 1001|HTY|Gabriela Dimitrova|09-2023|12-2023|35
+COURSE|Global History since 1500|HTY 1002|HTY|Gabriela Dimitrova|09-2023|12-2023|40
+COURSE|Historical Methods|HTY 2091|HTY|Rachel Lee|09-2023|12-2023|35
+COURSE|Mythmaking in History|HTY 2001|HTY|Rachel Lee|09-2023|12-2023|40
+COURSE|Modern Europe|HTY 2013|HTY|Kremena Dimitrova|09-2023|12-2023|20
+COURSE|Early Modern Europe|HTY 2012|HTY|Kremena Dimitrova|09-2023|12-2023|35
+COURSE|The Medieval Balkans|HTY 2021|HTY|Ani Nikolova|09-2023|12-2023|40
+COURSE|The Modern Balkans|HTY 2022|HTY|Yoana Ivanova|09-2023|12-2023|20
+COURSE|History of the Ottoman Empire|HTY 2023|HTY|Rositsa Ivanova|09-2023|12-2023|35
+COURSE|Byzantine History|HTY 2030|HTY|Nikolay Nikolov|09-2023|12-2023|35
+COURSE|Falsifications in History|HTY 3001|HTY|Todor Todorov|09-2023|12-2023|35
+COURSE|US History|HTY 2041|HTY|Gabriela Tsvetanova|09-2023|12-2023|15
+COURSE|History of Christianity|HTY 3010|HTY|Gabriela Tsvetanova|09-2023|12-2023|35
+COURSE|Basics in C#|INF 1030|INF|Tsvetan Tsvetanov|09-2023|12-2023|20
+COURSE|Analysis and Design of Information Systems|INF 2070|INF|Dimitar Tuparov|09-2023|12-2023|30
+COURSE|Database Systems|INF 2080|INF|Ivan Dimitrov|09-2023|12-2023|35
+COURSE|Web Server Technologies|INF 3035|INF|Marie Dimitrova|09-2023|12-2023|30
+COURSE|Website Development|INF 2040|INF|Ivan Asenov|09-2023|12-2023|55
+COURSE|Information Security|INF 3070|INF|Tsveti Misheva|09-2023|12-2023|35
+COURSE|Web Client Technologies|INF 3075|INF|Maria Georgieva|09-2023|12-2023|35
+COURSE|Big Data Analytics|INF 4080|INF|Damyana Ivanova|09-2023|12-2023|40
+COURSE|Writing for Media|JMC 1050|JMC|Valentina Ivanova|09-2023|12-2023|35
+COURSE|Media Law and Ethics|JMC 3056|JMC|Valentina Dimitrova|09-2023|12-2023|30
+COURSE|Intro to Literature|ENG 2010|ENG|John Petrov|09-2023|12-2023|35
+COURSE|Shakespeare|ENG 3088|ENG|John Petrov|09-2023|12-2023|35
+COURSE|World Literature|ENG 2021|ENG|Mark Smith|09-2023|12-2023|35
+COURSE|Calculus I|MAT 1003|MAT|Ivan Kirkov|09-2023|12-2023|35
+COURSE|Calculus II|MAT 1004|MAT|Mirko Petrov|09-2023|12-2023|40
+COURSE|Linear Algebra|MAT 1005|MAT|Michael Ivanov|09-2023|12-2023|35
+COURSE|Mathematical Statistics|MAT 2001|MAT|Diego Gomez|09-2023|12-2023|35
