@@ -1,24 +1,16 @@
-from undergraduate import Undergraduate
-from graduate import Graduate
-from admin import Admin
-from department import Department
+import constant
 from course import Course
 
 
 def read_courses():
     admins = {}
-    undergrad_students = []
-    grad_students = []
     courses = {}
     departments = {}
     not_yet_read_dep = []
-    not_yet_read_course = []
     not_yet_read_admin = []
 
-    COURSES_FILE = "courses.txt"
-
     try:
-        with open(COURSES_FILE, "r") as course_file:
+        with open(constant.COURSE_FILE, "r") as course_file:
             for line in course_file:
                 data = line.strip().split("|")
                 if data[0] == "COURSE":
@@ -43,10 +35,10 @@ def read_courses():
                     courses[course_id] = course
 
             # Remove duplicate keys from the courses dictionary
+            # noinspection PyTypeChecker
             courses = dict(set(courses.items()))
-
 
             return courses
 
     except FileNotFoundError:
-        print("The file 'admins.txt' could not be found.")
+        print("The input file with course info could not be found.")

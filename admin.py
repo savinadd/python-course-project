@@ -9,4 +9,8 @@ class Admin(Person):
         self.salary = salary
 
     def __str__(self):
-        return super().__str__() + f", Department: {self.department}, Courses Taught: {', '.join(self.courses_taught)}, Salary: {self.salary}"
+        courses = [str(course) for course in self.courses_taught]
+        return super().__str__() + f", Department: {self.department}, " \
+                                   f"Courses Taught: {', '.join(courses)}, " \
+                                   f"Salary: {self.salary}\n------------------------" \
+                                   f"-------------------------------------------"

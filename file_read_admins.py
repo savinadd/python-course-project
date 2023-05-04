@@ -1,24 +1,17 @@
-from undergraduate import Undergraduate
-from graduate import Graduate
+import constant
 from admin import Admin
-from department import Department
-from course import Course
 
 
 def read_admin():
     admins = {}
-    undergrad_students = []
-    grad_students = []
     courses = {}
     departments = {}
     not_yet_read_dep = []
     not_yet_read_course = []
     not_yet_read_admin = []
 
-    ADMIN_FILE = "admins.txt"
-
     try:
-        with open(ADMIN_FILE, "r") as admin_file:
+        with open(constant.ADMIN_FILE, "r") as admin_file:
             for line in admin_file:
                 data = line.strip().split("|")
                 if data[0] == "ADMIN":
@@ -64,4 +57,4 @@ def read_admin():
         return admins
 
     except FileNotFoundError:
-        print("The file 'admins.txt' could not be found.")
+        print("The input file with administrator info could not be found.")

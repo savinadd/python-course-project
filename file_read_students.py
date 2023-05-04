@@ -1,10 +1,10 @@
 from undergraduate import Undergraduate
 from graduate import Graduate
-from admin import Admin
-from department import Department
-from course import Course
 from file_read_courses import read_courses
 from file_read_admins import read_admin
+import constant
+
+
 def read_students():
     # create an empty dictionary for students
     admins = read_admin()
@@ -15,12 +15,8 @@ def read_students():
     not_yet_read_course = []
     not_yet_read_admin = []
 
-
-    STUDENT_FILE = "students.txt"
-
-
     try:
-        with open(STUDENT_FILE, "r") as stu_file:
+        with open(constant.STUDENT_FILE, "r") as stu_file:
             for line in stu_file:
                 data = line.strip().split("|")
                 if data[0] == "STUDENT":
@@ -36,18 +32,11 @@ def read_students():
                         proj_grad_date = data[10]
                         year = data[11]
                         credits_completed = data[12]
-                        current_courses = data[13].split(',')
-                        course_list = []
-                        if current_courses:
-                            for course_id in current_courses:
-                                if course_id in courses:
-                                    course_list.append(courses[course_id])
-                                else:
-                                    not_yet_read_course.append(course_id)
+                        current_courses = [course.strip() for course in data[13].split(',')]
 
                         undergrad = Undergraduate(first_name, last_name, address, phone, email,
-                                                  birthday, gpa, major, proj_grad_date, year, credits_completed,
-                                                  course_list)
+                                                  birthday, gpa, major, proj_grad_date, year, credits_completed)
+                        undergrad.set_current_courses(current_courses)
                         students[first_name + ' ' + last_name] = undergrad
 
                     elif data[1] == "Graduate":
@@ -93,5 +82,4 @@ def read_students():
         return students
 
     except FileNotFoundError:
-        print("The file 'admins.txt' could not be found.")
-
+        print("The input file with student info could not be found.")

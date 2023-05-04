@@ -43,3 +43,4 @@ ADMIN|Michael|Ivanov|ul. Rakovski 33, Varna, Bulgaria|0888345678|mivanov@gmail.c
 ADMIN|Diego|Gomez|ul. Kozloduy 10, Blagoevgrad, Bulgaria|0888456789|dgomez@gmail.com|19-07-1986|MAT|MAT 2001|80000.00
 ADMIN|John|Petrov|14 Angel Kanchev Str., Sofia, Bulgaria|0896712345|jpetrov@gmail.com|25-02-1978|ENG|ENG 2010, ENG 3088|4000
 ADMIN|Mark|Smith|19 Vitosha Blvd., Sofia, Bulgaria|0896432198|msmith@gmail.com|16-06-1985|ENG|ENG 2021|3500
+ADMIN|Savina|Ilieva|123 White Lane, New York, USA|123456789|sii@gmail.com|04-02-1999|COS|COS 1020,COS 1050|5000

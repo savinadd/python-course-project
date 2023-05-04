@@ -2,11 +2,8 @@ from student import Student
 
 
 class Undergraduate(Student):
-
-    CREDITS_TO_GRAD = 120
-
     def __init__(self, first_name, last_name, address, phone, email, birthday, gpa, major,
-                 proj_grad_date, year, credits_completed, current_courses):
+                 proj_grad_date, year, credits_completed, current_courses=None):
         super().__init__(first_name, last_name, address, phone, email, birthday, gpa)
         self.major = major
         self.proj_grad_date = proj_grad_date
@@ -14,10 +11,11 @@ class Undergraduate(Student):
         self.credits_completed = credits_completed
         self.current_courses = []
 
+    def set_current_courses(self, current_courses):
+        self.current_courses = current_courses
+
     def __str__(self):
-        return super().__str__() + f"\nMajor: {self.major}\nProjected Graduation Date: {self.proj_grad_date}\nYear: {self.year}\nCredits Completed: {self.credits_completed}\nCurrent Courses: {self.current_courses}"
-
-
-
-
-
+        current_courses_str = ', '.join(self.current_courses)
+        return f"{super().__str__()}\nMajor: {self.major}\nProjected Graduation Date: {self.proj_grad_date}\n" \
+               f"Year: {self.year}\nCredits Completed: {self.credits_completed}\n" \
+               f"Current Courses: {current_courses_str}\n"
