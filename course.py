@@ -2,6 +2,27 @@ from colorama import Fore, Style
 
 
 class Course:
+    """
+      A class to represent a course.
+
+      ...
+
+      Attributes
+      ----------
+      course name : str
+      course name of the course
+      course id : str
+      course id is a 3 letter abbreviation for the department and then 4 digits
+      course dep : Department
+      the department to which the course belongs
+      start date : str
+      the start date of the course
+      end date : str
+      end date of the course
+      max course size : str
+      maximum number of pupils that can be accomodated within the course
+
+      """
     def __init__(self, course_name, course_id, course_dep, course_prof, start_date, end_date, max_course_size):
         self.course_name = course_name
         self.course_id = course_id

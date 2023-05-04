@@ -3,6 +3,14 @@ from admin import Admin
 
 
 def read_admin():
+    """
+        Returns a dictionary of administrators, read from the input file.
+
+                Returns:
+                        admins (dict): Dictionary with the keys being the
+                        administrator name and the value being the corresponding
+                        Admin object
+    """
     admins = {}
     courses = {}
     departments = {}

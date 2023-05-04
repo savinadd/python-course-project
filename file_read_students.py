@@ -6,7 +6,14 @@ import constant
 
 
 def read_students():
-    # create an empty dictionary for students
+    """
+           Returns a dictionary of students, read from the input file.
+
+                   Returns:
+                           students (dict): Dictionary with the keys being the
+                           student name and the value being the corresponding
+                           Student object
+    """
     admins = read_admin()
     students = {}
     courses = read_courses()

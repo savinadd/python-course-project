@@ -2,6 +2,21 @@ from colorama import Fore, Style
 
 
 class Department:
+    """
+          A class to represent a department.
+
+          ...
+
+          Attributes
+          ----------
+          name : str
+          the name of the department, a 3 letter abbreviation
+          chair : Admin
+          the administrator who is chair of the department
+          courses of dep : list
+          the list of objects of type course offered by this department
+
+          """
     def __init__(self, name, chair, courses_of_dep):
         self.name = name
         self.chair = chair

@@ -9,6 +9,13 @@ from colorama import Fore
 
 
 def write_to_file(object_type):
+    """
+           Writes the desired information to an existing file.
+
+                   Parameters:
+                           object_type(str): A string inputted by the user of the type of object
+                                             to be written
+    """
 
     object_type = object_type.capitalize()
     if object_type == "Undergraduate":

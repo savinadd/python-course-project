@@ -3,6 +3,14 @@ from department import Department
 
 
 def read_deps():
+    """
+           Returns a dictionary of departments, read from the input file.
+
+                   Returns:
+                        departments (dict): Dictionary with the keys being the
+                        department name (its 3 letter abbreviation)
+                        and the value being the corresponding Department object
+    """
     admins = {}
     courses = {}
     departments = {}

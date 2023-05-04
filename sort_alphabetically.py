@@ -5,6 +5,15 @@ from course import Course
 
 
 def sort_alphabetically(dict_to_sort):
+    """
+       Returns an alphabetically sorted dictionary.
+
+               Parameters:
+                       dict_to_sort(dict): A dictionary of items chosen by the user
+
+               Returns:
+                       sorted_dict(dict): An alphabetically sorted dict.
+    """
     sorted_dict = {}
     for k, v in dict_to_sort.items():
         if isinstance(v, Admin):

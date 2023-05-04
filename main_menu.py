@@ -8,6 +8,10 @@ from write_to_file import write_to_file
 
 
 def return_menu():
+    """
+          This method allows for better user interaction with the program
+          and has been separated to minimize code repetition.
+    """
     choice = int(input(Fore.GREEN + "\nEnter 1 to return to the main menu, enter 2 to exit:   " + Style.RESET_ALL))
     if choice == 1:
         menu()
@@ -20,6 +24,10 @@ def return_menu():
 
 
 def menu():
+    """
+           Creates a menu for the program which calls various other functions
+           based on user input.
+    """
     print("𓂃𓂃𓂃𓂃𓂃𓂃𓂃𓂃𓂃𓂃𓂃𓂃𓂃𓂃𓂃𓂃𓂃𓂃𓂃𓂃𓂃𓂃𓂃𓂃𓂃𓂃𓂃𓂃𓂃𓂃𓂃𓂃𓂃𓂃𓂃𓂃𓂃𓂃𓂃𓂃𓂃𓂃𓂃𓂃𓂃")
     print("\n")
     print(Fore.BLUE + "Welcome to the Blagoevgrad University management system!")

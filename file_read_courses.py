@@ -3,6 +3,14 @@ from course import Course
 
 
 def read_courses():
+    """
+           Returns a dictionary of courses read from the input file.
+
+                   Returns:
+                           courses (dict): Dictionary with the keys being the
+                           course ID and the value being the corresponding
+                           Course object
+    """
     admins = {}
     courses = {}
     departments = {}
