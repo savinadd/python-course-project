@@ -31,7 +31,7 @@ def read_admin():
                     birthday = data[6]
                     department_name = data[7]
                     courses_taught = data[8].split(',')
-                    salary = 500
+                    salary = 5000
 
                     admin = Admin(first_name, last_name, address, phone, email,
                                   birthday, department_name, courses_taught, salary)

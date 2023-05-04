@@ -174,15 +174,13 @@ def menu():
     elif choice == 6:
         print("\n")
         choice_item = input("What type of item would you like to add? "
-                            "Your choices are Administrator, Student, or Course: ")
+                            "Your choices are Administrator ot student: ")
         if choice_item == "Student" or choice_item == "student":
             print("There are two types of students - Graduate and Undergraduate.")
             choice = input("What type of student would you like to add?: ")
         elif choice_item == "Administrator" or choice_item == "administrator" or \
                 choice_item == "admin" or choice_item == "Admin":
             choice = "Admin"
-        elif choice_item == "Course" or choice_item == "course":
-            choice = choice_item
         else:
             print(Fore.RED + "Invalid choice entered. The program will exit. Thank you!")
             exit(1)

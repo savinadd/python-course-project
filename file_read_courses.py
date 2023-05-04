@@ -42,8 +42,6 @@ def read_courses():
                                     max_course_size)
                     courses[course_id] = course
 
-            # Remove duplicate keys from the courses dictionary
-            # noinspection PyTypeChecker
             courses = dict(set(courses.items()))
 
             return courses

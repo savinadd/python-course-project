@@ -21,3 +21,5 @@ STUDENT|Graduate|William|Miller|2nd St 14 Sofia Bulgaria|0888112299|wmiller@gmai
 STUDENT|Graduate|Sophia|Davis|12th Blvd 8 Sofia Bulgaria|0888001199|sdavis@gmail.com|09-03-1989|3.95|Artificial Intelligence|Damyana Ivanov
 STUDENT|Graduate|Jacob|Wilson|14th St 17 Sofia Bulgaria|0888111100|jwilson@gmail.com|16-08-1988|3.68|Cancer Research|Kiril Kirilov
 STUDENT|Graduate|Mia|Moore|Park Ave 35 Sofia Bulgaria|0877991188|mmoore@gmail.com|28-04-1987|3.77|Robotics|Maria Ivanova
+
+STUDENT|Graduate|Savina|Dimitrova|123 North Main Avenue, USA|12345678|savina@gmail.com|04-04-2003|4.0|Robotics|Diego Gomez

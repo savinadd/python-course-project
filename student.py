@@ -29,6 +29,6 @@ class Student(Person):
         self.gpa = gpa
 
     def __str__(self):
-        student_info = super().__str__()  # Get the Person's __str__ output
+        student_info = super().__str__()
         student_info += f"\nGPA: {self.gpa}"
         return student_info
